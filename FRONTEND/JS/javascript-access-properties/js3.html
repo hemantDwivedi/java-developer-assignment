@@ -1,0 +1,44 @@
+<!-- 3. Write a program for COUNTER. Whenever we click on a "Count" button, value
+should increment -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Js</title>
+</head>
+<body>
+    
+    <h1 id="increment">
+        0
+    </h1>
+
+    <button id="btn">count</button>
+
+    <script>
+        let number = {num: 0,
+        get getNum(){
+            return this.num;
+        },
+        set setNum(num){
+            this.num = num;
+        }
+    }
+
+
+
+    function number(num){
+        this.num = num;
+    }
+
+    let n = new number(number.getNum);
+
+        let btnc = document.querySelector("#btn")
+        let count = n;
+        btnc.addEventListener('click', function(){
+            count += 1;
+            number.setNum = count;
+            document.querySelector("#increment").innerHTML = count;
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: #567582;
+}
+
+.onebg{
+    background-color: #464D5C;
+}
+
+.twobg{
+    background-color: #F7DDA4;
+}
+
+.threebg{
+    background-color: #B89068;
+}
+
+.pbg{
+    background-image: url("https://source.unsplash.com/random/?city,night");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}

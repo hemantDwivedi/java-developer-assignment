@@ -1,0 +1,30 @@
+.div-style-first{
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+    border: solid #F7B633 5px;
+}
+
+.div-style-two{
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+    border: solid #FB2576 5px;
+    border-style: dashed;
+}
+
+.div-style-three{
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+    border: solid #F8B195 5px;
+    border-style: dotted;
+}
+
+.div-style-four{
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+    border: solid #000 5px;
+    border-style: double;
+}

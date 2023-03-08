@@ -1,0 +1,23 @@
+h1{
+    font-style: italic;
+    color: #2E94B9;
+    text-align: center;
+}
+
+h2{
+    font-style: oblique;
+    color: #26BAEE;
+    text-align: left;
+}
+
+h3{
+    text-align: end;
+    color: #443C68;
+    font-family: cursive;
+}
+
+p{
+    font-family: monospace;
+    color: #E00543;
+    text-align: justify;
+}

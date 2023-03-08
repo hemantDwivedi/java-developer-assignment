@@ -1,0 +1,8 @@
+table, th, td{
+    width: 50%;
+    border: 2px solid;
+}
+
+table:hover{
+    background-color: #D77FA1;
+}
