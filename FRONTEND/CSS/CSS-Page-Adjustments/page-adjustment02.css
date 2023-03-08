@@ -1,0 +1,27 @@
+tr.collapse{
+    visibility: collapse;
+}
+
+h1.v{
+    visibility: visible;
+}
+
+h2.h{
+    visibility: hidden;
+}
+
+p.none{
+    display: none;
+}
+
+p.ex2{
+    display: inline;
+}
+
+p.ex3{
+    display: block;
+}
+
+p.ex4{
+    display: inline-block;
+}

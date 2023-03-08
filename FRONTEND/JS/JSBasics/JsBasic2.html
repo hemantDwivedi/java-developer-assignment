@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arrays</h1>
+    <p id="one"></p>
+    <button onclick="sortingArray()" >click me to sort</button>
+    <p id="two"></p>
+
+
+
+    <script>
+        const fruits = ["banana","mango", "kiwi", "apple"];
+        document.getElementById("one").innerHTML = fruits;
+
+        function sortingArray(){
+            fruits.sort();
+            fruits.reverse();
+            document.getElementById("two").innerHTML = fruits;
+        }
+    </script>
+</body>
+</html>
